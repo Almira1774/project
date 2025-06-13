@@ -66,19 +66,19 @@ html {
     
 }
 .block-header__button--burger{
-    background-image: url("img/iconBurger.svg");
+    background-image: url("img/Burger.svg");
     transition: background-image  0.5s, transform 1.5s;
    
 
 }
 .block-header__button--burger:hover{
 
-background-image: url("img/icon--close.svg");
+background-image: url("img/Close.svg");
 transform: rotate(180deg);
 
 }
 .block-header__button--search{
-    background-image: url("img/icon--search.svg");
+    background-image: url("img/Search.svg");
 
 }
 
@@ -126,7 +126,7 @@ transition: padding-left 1s;
      
 }
 .nav-ul__a:hover::before{
-content: url("img/nav-ul__img.svg");
+content: url("img/Nav.svg");
 width: 4px;
 height: 32px;
 position: absolute;
@@ -172,15 +172,15 @@ column-gap: 16px;
   
 }
 .contacts__btn--call{
-    background-image: url("img/icon-call.svg");
+    background-image: url("img/Call.svg");
 
 }
 .contacts__btn--chat{
-    background-image: url("img/iconChat.svg");
+    background-image: url("img/Chat.svg");
 
 }
 .contacts__btn--profile{
-    background-image: url("img/iconProfile.svg");
+    background-image: url("img/Profile.svg");
   
 }
 .block-footer__mail{
