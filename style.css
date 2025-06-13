@@ -66,19 +66,19 @@ html {
     
 }
 .block-header__button--burger{
-    background-image: url("img/Burger.svg");
+    background-image: url("img/iconBurger.svg");
     transition: background-image  0.5s, transform 1.5s;
    
 
 }
 .block-header__button--burger:hover{
 
-background-image: url("img/Close.svg");
+background-image: url("img/icon--close.svg");
 transform: rotate(180deg);
 
 }
 .block-header__button--search{
-    background-image: url("img/Search.svg");
+    background-image: url("img/icon--search.svg");
 
 }
 
@@ -126,7 +126,7 @@ transition: padding-left 1s;
      
 }
 .nav-ul__a:hover::before{
-content: url("img/Ul.svg");
+content: url("img/nav-ul__img.svg");
 width: 4px;
 height: 32px;
 position: absolute;
@@ -140,7 +140,8 @@ left: 0;
     width: 222px;
     height: 200px;
     padding-left: 24px;
-    margin-top: auto;    
+    margin-top: auto;   
+    
 }
 
 .block-footer__contacts{
@@ -171,15 +172,15 @@ column-gap: 16px;
   
 }
 .contacts__btn--call{
-    background-image: url("img/Call.svg");
+    background-image: url("img/icon-call.svg");
 
 }
 .contacts__btn--chat{
-    background-image: url("img/Chat.svg");
+    background-image: url("img/iconChat.svg");
 
 }
 .contacts__btn--profile{
-    background-image: url("img/Profile.svg");
+    background-image: url("img/iconProfile.svg");
   
 }
 .block-footer__mail{
@@ -228,5 +229,6 @@ cursor: pointer;
     color: #7E7E82;
 
 }
+
 
 
